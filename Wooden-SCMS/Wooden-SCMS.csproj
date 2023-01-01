@@ -7,4 +7,8 @@
     <RootNamespace>Wooden_SCMS</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Wooden.DataLayer-SCMS\Wooden.DataLayer-SCMS.csproj" />
+  </ItemGroup>
+
 </Project>
