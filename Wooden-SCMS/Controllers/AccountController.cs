@@ -9,11 +9,6 @@ namespace Wooden_SCMS.Controllers
         {
             return View();
         }
-        [HttpPost]
-        public IActionResult Login()
-        {
-            return View();
-        }
         public IActionResult Register()
         {
             return View();

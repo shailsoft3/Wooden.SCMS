@@ -9,7 +9,11 @@ namespace Wooden.DataLayer_SCMS.DataModel
     public class User
     {
         public int Id { get; set; }
-        public string FirstName { get; set; }=String.Empty;
-        public string? MiddleName { get; set; }
+        public string FirstName { get; set; }
+        public string lastName { get; set; }   
+        
+          
+        
+
     }
 }
